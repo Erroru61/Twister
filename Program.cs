@@ -26,7 +26,9 @@ namespace TwistProjekt
                 eingabe = Console.ReadLine();
                 twisted = leTwister(eingabe);
                 untwist = unTwist(twisted);
-                Console.WriteLine("-|- Eingegebenes Wort: {0,-10} | Getwistetes Word: {1:-10} | Enttwistetes Word: {2:-10} -|-", eingabe, twisted, untwist);
+
+
+                Console.WriteLine("\n-|- Eingegebenes Wort: {0,-10} | Getwistetes Word: {1:-10} | Enttwistetes Word: {2:-10} -|-", eingabe, twisted, untwist);
 
             } else if(mode == 1){
 
@@ -48,7 +50,7 @@ namespace TwistProjekt
                 Console.WriteLine(untwisted); 
 
             }
-            Console.WriteLine("\nFehler gefunden? Sie können uns dabei helfen den Fehler zu beheben unter:\n");
+            Console.WriteLine("\nFehler gefunden? Sie können uns dabei helfen den Fehler zu beheben unter:\nhttps://github.com/Erroru61/Twister");
             Console.ReadKey();
             
         }
